@@ -74,8 +74,7 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  /* width: 300px; */
-  width: 250px;
+  width: 225px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -129,8 +128,7 @@ h6 {
 }
 
 #main {
-  /* margin-left: 300px; */
-  margin-left: 250px;
+  margin-left: 225px;
 }
 
 .container,
@@ -141,7 +139,7 @@ h6 {
 
 @media (max-width: 1199px) {
   #header {
-    left: -300px;
+    left: -225px;
   }
 
   #main {
@@ -261,7 +259,7 @@ h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 225px;
 }
 
 #hero h1 {
@@ -1083,7 +1081,7 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 225px;
   z-index: 9999;
   background: #040b14;
 }
