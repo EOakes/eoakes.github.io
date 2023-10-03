@@ -378,15 +378,11 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Expertise
---------------------------------------------------------------*/
-
-.expertise .container ul > li {
+.about .expertise ul > li {
   color: rgb(40,172,145);
 }
 
-.expertise .container ul > li > span {
+.about .expertise ul > li > span {
   color: black;
 }
 
@@ -1030,7 +1026,7 @@ section {
 } */
 
 #footer {
-  background: #f7f8f9;
+  background: #f5f8fd;
   color: #45505b;
   font-size: 14px;
   text-align: center;
