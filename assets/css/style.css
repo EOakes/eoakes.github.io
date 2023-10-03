@@ -378,13 +378,22 @@ section {
   margin-bottom: 0;
 }
 
-.about .resume-item ul > li {
+.about .expertise-item ul > li {
   color: rgb(40,172,145);
 }
 
-.about .resume-item ul > li > span {
+.about .expertise-item ul > li > span {
   color: black;
 }
+
+.about .expertise-item {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
 
 /*--------------------------------------------------------------
 # Resume
