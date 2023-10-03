@@ -378,11 +378,11 @@ section {
   margin-bottom: 0;
 }
 
-.about .expertise ul > li {
+.about .resume-item ul > li {
   color: rgb(40,172,145);
 }
 
-.about .expertise ul > li > span {
+.about .resume-item ul > li > span {
   color: black;
 }
 
