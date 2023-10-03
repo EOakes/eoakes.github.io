@@ -382,13 +382,8 @@ section {
 # Expertise
 --------------------------------------------------------------*/
 
-/* .expertise .container ul {
-  padding: 0; 
-} */
-
 .expertise .container ul > li {
   color: rgb(40,172,145);
-  /* color: pink; */
 }
 
 .expertise .container ul > li > span {
