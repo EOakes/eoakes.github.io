@@ -387,7 +387,8 @@ section {
 } */
 
 .expertise .container ul > li {
-  color: rgb(40,172,145);
+  /* color: rgb(40,172,145); */
+  color: pink;
 }
 
 .expertise .container ul > li > span {
