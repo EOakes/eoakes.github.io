@@ -943,6 +943,61 @@ section {
   background: #37b3ed;
 }
 
+.contact .formspree-email-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .formspree-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .formspree-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .formspree-email-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact .formspree-email-form label {
+  padding-bottom: 8px;
+}
+
+.contact .formspree-email-form input,
+.contact .formspree-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .formspree-email-form input {
+  height: 44px;
+}
+
+.contact .formspree-email-form textarea {
+  padding: 10px 15px;
+}
+
+.contact .formspree-email-form button[type=submit] {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .formspree-email-form button[type=submit]:hover {
+  background: #37b3ed;
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
