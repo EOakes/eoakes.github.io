@@ -33,6 +33,10 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.smallcaps { 
+  font-variant: small-caps
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
