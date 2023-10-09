@@ -264,9 +264,7 @@ h6 {
   position: relative;
   left: 10px;
   z-index: 2;
-  /* min-width: 50vw; works well! now try with width: 50vw, or min=50 and max=75, or min=50 and max=90*/
   min-width: 50vw;
-  max-width: 75vw;
 }
 
 #hero h1 {
