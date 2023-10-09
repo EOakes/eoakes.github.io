@@ -264,9 +264,9 @@ h6 {
   position: relative;
   left: 10px;
   z-index: 2;
-  width: 500px;
-  /* min-width: 500px;  */
-  /* max-width: 550px; */
+  /* width: 300px; */
+  min-width: 500px; 
+  max-width: 510px;
 }
 
 #hero h1 {
