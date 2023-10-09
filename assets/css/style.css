@@ -262,10 +262,11 @@ h6 {
 
 #hero .hero-container {
   position: relative;
-  left:50px;
+  /* left:50px; */
   z-index: 2;
   /* min-width: 500px; */
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 100%;
 }
 
 #hero h1 {
