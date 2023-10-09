@@ -15,14 +15,14 @@ body {
 }
 
 a {
-  /* color: #149ddd; */
-  color: rgb(40,172,145);
+  color: #149ddd;
+  /* color: rgb(40,172,145); */
   text-decoration: none;
 }
 
 a:hover {
-  /* color: #37b3ed; */
-  color: rgb(74,191,108);
+  color: #37b3ed;
+  /* color: rgb(74,191,108); */
   text-decoration: none;
 }
 
@@ -332,8 +332,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  /* color: #173b6c; */
-  color: rgb(48,15,73);
+  color: #173b6c;
+  /* color: rgb(48,15,73); */
 }
 
 .section-title h2::after {
@@ -342,7 +342,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  /* background: #149ddd; */
+  background: #149ddd;
   background: rgb(69,53,128);
   bottom: 0;
   left: 0;
@@ -400,8 +400,8 @@ section {
   font-weight: 700;
   margin-top: 40px;
   margin-bottom: 20px;
-  /* color: #173b6c; */
-  color: rgb(48,15,73);
+  color: #173b6c;
+  /* color: rgb(48,15,73); */
 }
 
 
