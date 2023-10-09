@@ -781,8 +781,61 @@ section {
 
 
 /*--------------------------------------------------------------
-# Outreach (from myresume)
+# Outreach (combo with services + portfolio from myresume)
 --------------------------------------------------------------*/
+
+.outreach .icon-box {
+  margin-bottom: 20px;
+}
+
+.outreach .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+
+.outreach .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.outreach .icon-box:hover .icon {
+  background: #fff;
+}
+
+.outreach .icon-box:hover .icon i {
+  color: #149ddd;
+}
+
+.outreach .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.outreach .title a {
+  color: #343a40;
+}
+
+.outreach .title a:hover {
+  color: #149ddd;
+}
+
+.outreach .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
 .outreach .outreach-item {
   margin-bottom: 30px;
 }
