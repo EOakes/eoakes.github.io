@@ -387,13 +387,13 @@ section {
   margin-bottom: 0;
 }
 
-.about .expertise-item ul > li {
+/* .about .expertise-item ul > li {
   color: rgb(40,172,145);
 }
 
 .about .expertise-item ul > li > span {
   color: black;
-}
+} */
 
 .about .expertise-title {
   font-size: 26px;
