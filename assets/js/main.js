@@ -193,13 +193,13 @@
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+    selector: '.outreach-lightbox'
   });
 
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.outreach-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
