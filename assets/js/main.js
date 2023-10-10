@@ -193,7 +193,7 @@
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
-    selector: '.outreach-lightbox'
+    selector: '.portfolio-lightbox'
   });
 
   /**
