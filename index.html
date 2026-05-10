@@ -127,7 +127,7 @@
                 <div style="line-height:50%;"> <br> </div>
                 <li><span>Structural decomposition of molecular gas maps</span></li>
                 <div style="line-height:50%;"> <br> </div>
-                <li><span>Star formation and evolution</span></li>
+                <li><span>Star formation and stellar evolution</span></li>
                 <div style="line-height:50%;"> <br> </div>
                 <li><span>Dust and PAH emission</span></li>
                 <div style="line-height:50%;"> <br> </div>
@@ -144,7 +144,7 @@
                 <div style="line-height:50%;"> <br> </div>
                 <li><i class="fas fa-computer"></i><span> &nbsp;CASA, IRAF, CARTA, DS9, DAOPHOT/ALLSTAR</span></li>
                 <div style="line-height:50%;"> <br> </div>
-                <li><i class="fas fa-satellite-dish"></i><span> &nbsp;&nbsp;ALMA, JWST, IRAM 30m, SMA</span></li>
+                <li><i class="fas fa-satellite-dish"></i><span> &nbsp;&nbsp;ALMA, JWST, HST, IRAM 30m, SMA</span></li>
                 <div style="line-height:50%;"> <br> </div>
                 </ul>  
             </div>
@@ -162,6 +162,8 @@
           <h2>Research</h2>
           <p>A selection of my current and former research projects. For a closer look, click the <i class="fa-solid fa-plus"></i> on one of the figures below, or click the <i class="fa-solid fa-link"></i> for more details.</p>
         </div>
+
+        <!-- Make the closer look more obvious! -->
 
         <div class="row research-container" data-aos="fade-up" data-aos-delay="100">
 
@@ -510,10 +512,18 @@
         </p>
         <br>
 
-        <object data="assets/img/CV/Oakes_CV.pdf" type="application/pdf" width="85%" height="700px">
-          <p>Unable to display PDF file. <a href="assets/img/CV/Oakes_CV.pdf">Download</a> instead.</p>
-        </object>
-        
+        <!-- iframe helps avoid jumping to embedded PDF in Firefox -->
+        <iframe
+            src="assets/img/CV/Oakes_CV.pdf"
+            title="Curriculum vitae PDF"
+            loading="lazy"
+            width="85%"
+            height="700"
+            style="border: 0;"
+            tabindex="-1">
+            <p>Unable to display PDF file. <a href="assets/img/CV/Oakes_CV.pdf">Download</a> instead.</p>
+        </iframe>
+
       </div>
     </section><!-- End CV Section -->
 
