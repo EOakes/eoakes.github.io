@@ -793,6 +793,14 @@ section {
 # Outreach (combo with services + portfolio from myresume)
 --------------------------------------------------------------*/
 
+/* Keeps a clean 16:9 crop for video thumbs */
+.outreach .outreach-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
 .outreach .icon-box {
   margin-bottom: 20px;
 }
