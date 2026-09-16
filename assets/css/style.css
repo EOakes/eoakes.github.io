@@ -522,12 +522,10 @@ section {
   padding-top: 40px;
 }
 
-/* Keeps every project figure in the same box, whatever its aspect ratio */
+/* Figures keep their own proportions; the slider tracks each one's height */
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: contain;
-  background: #fff;
+  height: auto;
   display: block;
 }
 
