@@ -303,9 +303,9 @@ h6 {
     line-height: 36px;
   }
 
-  #hero h2 {
+  #hero p {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 26px;
     margin-bottom: 30px;
   }
 }
@@ -352,6 +352,16 @@ section {
   margin-bottom: 0;
 }
 
+.section-title p+p {
+  margin-top: 12px;
+}
+
+.section-title h2 .title-note {
+  font-size: 18px;
+  font-weight: 400;
+  color: #272829;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -383,8 +393,16 @@ section {
   line-height: 0;
 }
 
+.about .content p {
+  margin-bottom: 28px;
+}
+
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about .expertise-item ul li {
+  margin-bottom: 12px;
 }
 
 /* .about .expertise-item ul > li {
@@ -412,43 +430,23 @@ section {
   margin-bottom: 30px;
 }
 
-.research #research-flters {
-  padding: 0;
-  margin: 0 auto 35px auto;
-  list-style: none;
-  text-align: center;
-  background: #fff;
-  border-radius: 50px;
-  padding: 2px 15px;
-}
-
-.research #research-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 15px 8px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #272829;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-}
-
-.research #research-flters li:hover,
-.research #research-flters li.filter-active {
-  color: #149ddd;
-}
-
-.research #research-flters li:last-child {
-  margin-right: 0;
-}
-
 .research .research-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
+}
+
+/* Keeps every research thumbnail the same square size */
+.research .research-wrap img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+.research .research-wrap .research-cover {
+  display: block;
 }
 
 .research .research-wrap::before {
@@ -462,6 +460,8 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  /* lets clicks through to the figure link underneath */
+  pointer-events: none;
 }
 
 .research .research-wrap .research-links {
@@ -522,8 +522,13 @@ section {
   padding-top: 40px;
 }
 
+/* Keeps every project figure in the same box, whatever its aspect ratio */
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: #fff;
+  display: block;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -837,14 +842,7 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
-}
-
-.outreach .title a {
   color: #343a40;
-}
-
-.outreach .title a:hover {
-  color: #149ddd;
 }
 
 .outreach .description {
@@ -1085,102 +1083,6 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
-  width: 100%;
-  padding: 30px;
-  background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form .form-group {
-  margin-bottom: 15px;
-}
-
-.contact .php-email-form label {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 15px;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #149ddd;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
-}
-
 .contact .formspree-email-form {
   width: 100%;
   padding: 30px;
@@ -1234,16 +1136,6 @@ section {
 
 .contact .formspree-email-form button[type=submit]:hover {
   background: #37b3ed;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1343,7 +1235,7 @@ section {
   margin: 0 0 15px 0;
 }
 #footer p {
-  font-size: 15;
+  font-size: 15px;
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
